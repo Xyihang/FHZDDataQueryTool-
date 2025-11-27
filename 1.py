@@ -330,8 +330,8 @@ class FHZDDataQueryTool:
             'monospace': ('Consolas', 9)  # 等宽字体用于代码和JSON显示
         }
 
-        self.default_openid = "332908108AE3BCD62DCE9843072E00FE"
-        self.default_token = "AB2D3762FEE0C5DA0D9D3B8DD867394F"
+        self.default_openid = "你的openid如果有疑问可以联系wx15127203752"
+        self.default_token = "你的token"
         
         # 查询状态跟踪
         self.current_query_function = None
@@ -3223,3 +3223,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = FHZDDataQueryTool(root)
     root.mainloop()
+
